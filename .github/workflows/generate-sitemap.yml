@@ -6,19 +6,23 @@ on:
 
 jobs:
   build:
+    # --- DÉBUT DES NOUVELLES LIGNES ---
+    permissions:
+      contents: write
+    # --- FIN DES NOUVELLES LIGNES ---
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Important pour les dates exactes
+          fetch-depth: 0
 
       - name: Générer le sitemap
         uses: cicirello/generate-sitemap@v1
         with:
           base-url-path: 'https://landolsi79.github.io/landolsi-official/'
           sitemap-format: xml
-          drop-html-extension: false # Conserve l'extension .html
+          drop-html-extension: false
 
       - name: Publier le sitemap
         run: |
