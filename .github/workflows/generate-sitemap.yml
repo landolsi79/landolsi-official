@@ -1,0 +1,29 @@
+name: Générer et Déployer le Sitemap
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Important pour les dates exactes
+
+      - name: Générer le sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: 'https://landolsi79.github.io/landolsi-official/'
+          sitemap-format: xml
+          drop-html-extension: false # Conserve l'extension .html
+
+      - name: Publier le sitemap
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add sitemap.xml
+          git diff --staged --quiet || git commit -m 'Mise à jour automatique du sitemap'
+          git push
