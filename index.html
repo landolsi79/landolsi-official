@@ -11,6 +11,29 @@
     "name": "Ariana, Tunisia"
   },
   "genre": ["Synthwave", "Electronic", "Retrowave", "Desert Synthwave"],
+  "album": [
+    {"@type": "MusicAlbum", "name": "The Last Night of 2025", "datePublished": "2025", "image": "https://coverartarchive.org/release/4159ac21-68e1-4bfd-ac59-0c336d6831e0/43908685846.jpg"},
+    {"@type": "MusicAlbum", "name": "Electronic Love", "datePublished": "2026", "image": "https://coverartarchive.org/release/d1760de6-33af-44bf-94d7-988a46b63b21/43965852498.jpg"},
+    {"@type": "MusicAlbum", "name": "Desert Waves", "datePublished": "2014", "image": "https://coverartarchive.org/release/6e880e34-abb1-4330-87fe-d1b7ca5f7cf3/43844810784.jpg"},
+    {"@type": "MusicAlbum", "name": "Sahara Twilight", "datePublished": "2025", "image": "https://coverartarchive.org/release/6439e302-bd0f-4e71-a9c4-5b9a17b2706a/42794141112.jpg"},
+    {"@type": "MusicAlbum", "name": "The Sleep of Machines", "datePublished": "2025", "image": "https://coverartarchive.org/release/401bb273-c486-453a-8427-4e36dfc843a9/42928221327.jpg"},
+    {"@type": "MusicAlbum", "name": "Borj Louzir", "datePublished": "2024", "image": "https://coverartarchive.org/release/0a6185a5-71ab-411f-a743-50a79a2b1e7e/42912998073.jpg"},
+    {"@type": "MusicAlbum", "name": "Neon Desert", "datePublished": "2023", "image": "https://coverartarchive.org/release/e97f8968-5d4b-4d2e-bebb-7ecf69a7996d/43199526472.jpg"},
+    {"@type": "MusicAlbum", "name": "Whispers of the Past", "datePublished": "2017", "image": "https://coverartarchive.org/release/8f0ddbe8-ff3f-4f79-be74-ce2f5cf4e4ce/43845060434.jpg"},
+    {"@type": "MusicAlbum", "name": "Chrome Over Dust", "datePublished": "2019", "image": "https://coverartarchive.org/release/e80bbc79-13f0-4f60-ae09-5bcefc997bd1/43648365691.jpg"},
+    {"@type": "MusicAlbum", "name": "The Horizon Protocol", "datePublished": "2020", "image": "https://coverartarchive.org/release/e96ec934-de44-4935-a8b1-b51009469ff8/43648378488.jpg"},
+    {"@type": "MusicAlbum", "name": "Digitronica", "datePublished": "2021", "image": "https://coverartarchive.org/release/8dd455db-bd05-4f2f-8045-3023a04c919a/42912001978.jpg"},
+    {"@type": "MusicAlbum", "name": "Neon Dawn", "datePublished": "2022", "image": "https://coverartarchive.org/release/09e6514a-d89a-4d37-b302-a302cebc1f37/43065908422.jpg"},
+    {"@type": "MusicAlbum", "name": "Retronyx", "datePublished": "2021", "image": "https://coverartarchive.org/release/985827e0-c223-42e6-b47b-b2409b34cacf/42816323530.jpg"},
+    {"@type": "MusicAlbum", "name": "ARIANA BY NIGHT", "datePublished": "2024", "image": "https://coverartarchive.org/release/e915847a-5f76-49ee-bf68-4ffe67b0576c/42928408617.jpg"},
+    {"@type": "MusicAlbum", "name": "My Love Kenza", "datePublished": "2024", "image": "https://coverartarchive.org/release/a5736e0d-8983-4e88-b7af-78a57669bebe/42912290964.jpg"},
+    {"@type": "MusicAlbum", "name": "Distant Skies", "datePublished": "2022", "image": "https://coverartarchive.org/release/ccc4adbd-92f0-4113-8cfd-ab214af91cad/42948526299.jpg"},
+    {"@type": "MusicAlbum", "name": "Echoes of Eternity", "datePublished": "2025", "image": "https://coverartarchive.org/release/c3b1d317-2013-4ed9-9ab8-b1d8e6fabc0a/42896821390.jpg"},
+    {"@type": "MusicAlbum", "name": "Neon Memories", "datePublished": "2021", "image": "https://coverartarchive.org/release/5defb1ef-a2b3-4709-9a59-56c3961088fc/42912228592.jpg"},
+    {"@type": "MusicAlbum", "name": "Obsidian Pulse", "datePublished": "2020", "image": "https://coverartarchive.org/release/e03be1c0-dcca-450e-8cb0-622d1b8841f4/43648410160.jpg"},
+    {"@type": "MusicAlbum", "name": "Enigma", "datePublished": "2026", "image": "https://coverartarchive.org/release/6e59198a-20e5-402b-adbc-6dd4b1fc2859/44160010298.jpg"},
+    {"@type": "MusicAlbum", "name": "Radio Wave", "datePublished": "2025", "image": "https://coverartarchive.org/release/1779d0cd-f0ab-4266-b5aa-66807d716521/42815938190.jpg"}
+  ],
   "identifier": [
     {"@type": "PropertyValue", "propertyID": "IPI (BMI)", "value": "01326634163"},
     {"@type": "PropertyValue", "propertyID": "ISNI", "value": "0000000528779455"}
@@ -137,11 +160,49 @@
             border-radius: 8px;
             padding: 15px;
         }
+        /* ========== DISCOGRAPHY GRID ========== */
+        .discography-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .album-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 0, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .album-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 0, 255, 0.3);
+        }
+        .album-cover {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            display: block;
+        }
+        .album-info {
+            padding: 15px;
+            text-align: center;
+        }
+        .album-info h3 {
+            color: #00ffff;
+            margin: 0 0 5px 0;
+            font-size: 1.1em;
+        }
+        .album-year {
+            color: #ff00ff;
+            font-size: 0.9em;
+            margin: 0;
+        }
         /* ========== RESPONSIVE ========== */
         @media (max-width: 768px) {
             body { padding: 15px; border: none; }
             h1 { font-size: 2em; }
-            .link-grid { grid-template-columns: 1fr; }
+            .link-grid, .discography-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -168,21 +229,96 @@
     <h2>Biography</h2>
     <p>LANDOLSI (born January 8, 1979 in Ariana, Tunisia) is the pioneer of <strong style="color:#ff00ff;">"Desert Synthwave"</strong>, a unique genre that fuses the retro-futuristic nostalgia of the 80s with the vast and captivating atmospheres of the North African deserts.</p>
 
-    <!-- DISCOGRAPHY -->
-    <h2>Discography</h2>
-    <h3>Upcoming Release</h3>
-    <ul>
-        <li><strong style="color:#ffff00;">Electronic Love</strong> (Album - Release <strong>January 17, 2026</strong>) 🚀</li>
-    </ul>
-    <h3>Previous Albums</h3>
-    <ul>
-        <li>Sahara Twilight (2025)</li>
-        <li>The Sleep of Machines (2025)</li>
-        <li>Borj Louzir (2024)</li>
-        <li>Neon Desert (2023)</li>
-        <li>Whispers of the Past (2017)</li>
-        <li>Desert Waves (2014)</li>
-    </ul>
+    <!-- DISCOGRAPHY GALLERY -->
+    <h2>Complete Discography</h2>
+    <div class="discography-grid">
+        <!-- Albums -->
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/4159ac21-68e1-4bfd-ac59-0c336d6831e0/43908685846.jpg" alt="Cover of the album 'The Last Night of 2025' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>The Last Night of 2025</h3><p class="album-year">2025</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/d1760de6-33af-44bf-94d7-988a46b63b21/43965852498.jpg" alt="Cover of the album 'Electronic Love' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Electronic Love</h3><p class="album-year">2026</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/6e880e34-abb1-4330-87fe-d1b7ca5f7cf3/43844810784.jpg" alt="Cover of the album 'Desert Waves' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Desert Waves</h3><p class="album-year">2014</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/6439e302-bd0f-4e71-a9c4-5b9a17b2706a/42794141112.jpg" alt="Cover of the album 'Sahara Twilight' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Sahara Twilight</h3><p class="album-year">2025</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/401bb273-c486-453a-8427-4e36dfc843a9/42928221327.jpg" alt="Cover of the album 'The Sleep of Machines' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>The Sleep of Machines</h3><p class="album-year">2025</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/0a6185a5-71ab-411f-a743-50a79a2b1e7e/42912998073.jpg" alt="Cover of the album 'Borj Louzir' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Borj Louzir</h3><p class="album-year">2024</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/e97f8968-5d4b-4d2e-bebb-7ecf69a7996d/43199526472.jpg" alt="Cover of the album 'Neon Desert' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Neon Desert</h3><p class="album-year">2023</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/8f0ddbe8-ff3f-4f79-be74-ce2f5cf4e4ce/43845060434.jpg" alt="Cover of the album 'Whispers of the Past' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Whispers of the Past</h3><p class="album-year">2017</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/e80bbc79-13f0-4f60-ae09-5bcefc997bd1/43648365691.jpg" alt="Cover of the album 'Chrome Over Dust' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Chrome Over Dust</h3><p class="album-year">2019</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/e96ec934-de44-4935-a8b1-b51009469ff8/43648378488.jpg" alt="Cover of the album 'The Horizon Protocol' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>The Horizon Protocol</h3><p class="album-year">2020</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/8dd455db-bd05-4f2f-8045-3023a04c919a/42912001978.jpg" alt="Cover of the album 'Digitronica' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Digitronica</h3><p class="album-year">2021</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/09e6514a-d89a-4d37-b302-a302cebc1f37/43065908422.jpg" alt="Cover of the album 'Neon Dawn' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Neon Dawn</h3><p class="album-year">2022</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/985827e0-c223-42e6-b47b-b2409b34cacf/42816323530.jpg" alt="Cover of the album 'Retronyx' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Retronyx</h3><p class="album-year">2021</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/e915847a-5f76-49ee-bf68-4ffe67b0576c/42928408617.jpg" alt="Cover of the album 'ARIANA BY NIGHT' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>ARIANA BY NIGHT</h3><p class="album-year">2024</p></div>
+        </div>
+        <!-- Singles -->
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/a5736e0d-8983-4e88-b7af-78a57669bebe/42912290964.jpg" alt="Cover of the single 'My Love Kenza' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>My Love Kenza</h3><p class="album-year">2024</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/ccc4adbd-92f0-4113-8cfd-ab214af91cad/42948526299.jpg" alt="Cover of the single 'Distant Skies' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Distant Skies</h3><p class="album-year">2022</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/c3b1d317-2013-4ed9-9ab8-b1d8e6fabc0a/42896821390.jpg" alt="Cover of the single 'Echoes of Eternity' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Echoes of Eternity</h3><p class="album-year">2025</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/5defb1ef-a2b3-4709-9a59-56c3961088fc/42912228592.jpg" alt="Cover of the single 'Neon Memories' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Neon Memories</h3><p class="album-year">2021</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/e03be1c0-dcca-450e-8cb0-622d1b8841f4/43648410160.jpg" alt="Cover of the single 'Obsidian Pulse' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Obsidian Pulse</h3><p class="album-year">2020</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/6e59198a-20e5-402b-adbc-6dd4b1fc2859/44160010298.jpg" alt="Cover of the single 'Enigma' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Enigma</h3><p class="album-year">2026</p></div>
+        </div>
+        <div class="album-card">
+            <img src="https://coverartarchive.org/release/1779d0cd-f0ab-4266-b5aa-66807d716521/42815938190.jpg" alt="Cover of the single 'Radio Wave' by LANDOLSI" class="album-cover">
+            <div class="album-info"><h3>Radio Wave</h3><p class="album-year">2025</p></div>
+        </div>
+    </div>
 
     <!-- AUDIO PLAYER -->
     <h2>Listen</h2>
