@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://landolsi79.github.io/landolsi-official/</loc>
-    <lastmod>2026-02-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+    <!-- Page d'accueil (la plus importante) -->
+    <url>
+        <loc>https://landolsi79.github.io/landolsi-official/</loc>
+        <lastmod>2026-02-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Page Biographie -->
+    <url>
+        <loc>https://landolsi79.github.io/landolsi-official/about.html</loc>
+        <lastmod>2026-02-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Page Discographie (contenu fréquemment mis à jour) -->
+    <url>
+        <loc>https://landolsi79.github.io/landolsi-official/discography.html</loc>
+        <lastmod>2026-02-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Page Tous les liens -->
+    <url>
+        <loc>https://landolsi79.github.io/landolsi-official/links.html</loc>
+        <lastmod>2026-02-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Page Contact -->
+    <url>
+        <loc>https://landolsi79.github.io/landolsi-official/contact.html</loc>
+        <lastmod>2026-02-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
 </urlset>
