@@ -65,10 +65,11 @@
             box-shadow: 0 10px 25px rgba(255, 0, 255, 0.3);
         }
         .album-cover {
-            width: 100%; height: 180px; object-fit: cover;
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
             background: linear-gradient(45deg, #1a0033, #33001a);
-            display: flex; align-items: center; justify-content: center;
-            color: #e0e0ff; font-size: 0.9em; text-align: center; padding: 15px;
         }
         .album-info {
             padding: 15px;
@@ -93,7 +94,6 @@
     </style>
 </head>
 <body>
-    <!-- NAVIGATION MENU -->
     <nav style="text-align: center; margin: 30px 0; padding: 15px; border-bottom: 1px solid #ff00ff;">
         <a href="index.html" style="margin: 0 15px; font-weight: bold;">HOME</a>
         <a href="about.html" style="margin: 0 15px; font-weight: bold;">BIO</a>
@@ -108,29 +108,100 @@
     <div class="category">
         <h2>Albums</h2>
         <div class="discography-grid">
-            <div class="album-card"><div class="album-cover">Electronic Love</div><div class="album-info"><h3>Electronic Love</h3><p class="album-year">2026</p></div></div>
-            <div class="album-card"><div class="album-cover">The Last Night of 2025</div><div class="album-info"><h3>The Last Night of 2025</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">The Horizon Protocol</div><div class="album-info"><h3>The Horizon Protocol</h3><p class="album-year">2020</p></div></div>
-            <div class="album-card"><div class="album-cover">Chrome Over Dust</div><div class="album-info"><h3>Chrome Over Dust</h3><p class="album-year">2019</p></div></div>
-            <div class="album-card"><div class="album-cover">Whispers of the Past</div><div class="album-info"><h3>Whispers of the Past</h3><p class="album-year">2017</p></div></div>
-            <div class="album-card"><div class="album-cover">Desert Waves</div><div class="album-info"><h3>Desert Waves</h3><p class="album-year">2014</p></div></div>
-            <div class="album-card"><div class="album-cover">Digitronica</div><div class="album-info"><h3>Digitronica</h3><p class="album-year">2021</p></div></div>
-            <div class="album-card"><div class="album-cover">Retrograde Hearts</div><div class="album-info"><h3>Retrograde Hearts</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Retrovision</div><div class="album-info"><h3>Retrovision</h3><p class="album-year">2021</p></div></div>
-            <div class="album-card"><div class="album-cover">Coco Beach</div><div class="album-info"><h3>Coco Beach</h3><p class="album-year">2021</p></div></div>
-            <div class="album-card"><div class="album-cover">Borj Louzir</div><div class="album-info"><h3>Borj Louzir</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Eternal Summer</div><div class="album-info"><h3>Eternal Summer</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Sahara Twilight</div><div class="album-info"><h3>Sahara Twilight</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">Arcadia Niights</div><div class="album-info"><h3>Arcadia Niights</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">Neon Desert</div><div class="album-info"><h3>Neon Desert</h3><p class="album-year">2023</p></div></div>
-            <div class="album-card"><div class="album-cover">Apocalypse</div><div class="album-info"><h3>Apocalypse</h3><p class="album-year">2023</p></div></div>
-            <div class="album-card"><div class="album-cover">Gravity of Silence</div><div class="album-info"><h3>Gravity of Silence</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">Retronyx</div><div class="album-info"><h3>Retronyx</h3><p class="album-year">2021</p></div></div>
-            <div class="album-card"><div class="album-cover">The Sleep of Machines</div><div class="album-info"><h3>The Sleep of Machines</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">Ariana by Night</div><div class="album-info"><h3>Ariana by Night</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Renegade</div><div class="album-info"><h3>Renegade</h3><p class="album-year">2022</p></div></div>
-            <div class="album-card"><div class="album-cover">Neon Dawn</div><div class="album-info"><h3>Neon Dawn</h3><p class="album-year">2022</p></div></div>
-            <div class="album-card"><div class="album-cover">198X</div><div class="album-info"><h3>198X</h3><p class="album-year">2025</p></div></div>
+            <!-- Albums avec images -->
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/d1760de6-33af-44bf-94d7-988a46b63b21/43965852498.jpg" alt="Electronic Love" class="album-cover">
+                <div class="album-info"><h3>Electronic Love</h3><p class="album-year">2026</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/4159ac21-68e1-4bfd-ac59-0c336d6831e0/43908685846.jpg" alt="The Last Night of 2025" class="album-cover">
+                <div class="album-info"><h3>The Last Night of 2025</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/e96ec934-de44-4935-a8b1-b51009469ff8/43648378488.jpg" alt="The Horizon Protocol" class="album-cover">
+                <div class="album-info"><h3>The Horizon Protocol</h3><p class="album-year">2020</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/e80bbc79-13f0-4f60-ae09-5bcefc997bd1/43648365691.jpg" alt="Chrome Over Dust" class="album-cover">
+                <div class="album-info"><h3>Chrome Over Dust</h3><p class="album-year">2019</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/8f0ddbe8-ff3f-4f79-be74-ce2f5cf4e4ce/43845060434.jpg" alt="Whispers of the Past" class="album-cover">
+                <div class="album-info"><h3>Whispers of the Past</h3><p class="album-year">2017</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/6e880e34-abb1-4330-87fe-d1b7ca5f7cf3/43844810784.jpg" alt="Desert Waves" class="album-cover">
+                <div class="album-info"><h3>Desert Waves</h3><p class="album-year">2014</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/8dd455db-bd05-4f2f-8045-3023a04c919a/42912001978.jpg" alt="Digitronica" class="album-cover">
+                <div class="album-info"><h3>Digitronica</h3><p class="album-year">2021</p></div>
+            </div>
+            <!-- Albums sans images disponibles -->
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Retrograde+Hearts" alt="Retrograde Hearts" class="album-cover">
+                <div class="album-info"><h3>Retrograde Hearts</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Retrovision" alt="Retrovision" class="album-cover">
+                <div class="album-info"><h3>Retrovision</h3><p class="album-year">2021</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Coco+Beach" alt="Coco Beach" class="album-cover">
+                <div class="album-info"><h3>Coco Beach</h3><p class="album-year">2021</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/0a6185a5-71ab-411f-a743-50a79a2b1e7e/42912998073.jpg" alt="Borj Louzir" class="album-cover">
+                <div class="album-info"><h3>Borj Louzir</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Eternal+Summer" alt="Eternal Summer" class="album-cover">
+                <div class="album-info"><h3>Eternal Summer</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/6439e302-bd0f-4e71-a9c4-5b9a17b2706a/42794141112.jpg" alt="Sahara Twilight" class="album-cover">
+                <div class="album-info"><h3>Sahara Twilight</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Arcadia+Niights" alt="Arcadia Niights" class="album-cover">
+                <div class="album-info"><h3>Arcadia Niights</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/e97f8968-5d4b-4d2e-bebb-7ecf69a7996d/43199526472.jpg" alt="Neon Desert" class="album-cover">
+                <div class="album-info"><h3>Neon Desert</h3><p class="album-year">2023</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Apocalypse" alt="Apocalypse" class="album-cover">
+                <div class="album-info"><h3>Apocalypse</h3><p class="album-year">2023</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Gravity+of+Silence" alt="Gravity of Silence" class="album-cover">
+                <div class="album-info"><h3>Gravity of Silence</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/985827e0-c223-42e6-b47b-b2409b34cacf/42816323530.jpg" alt="Retronyx" class="album-cover">
+                <div class="album-info"><h3>Retronyx</h3><p class="album-year">2021</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/401bb273-c486-453a-8427-4e36dfc843a9/42928221327.jpg" alt="The Sleep of Machines" class="album-cover">
+                <div class="album-info"><h3>The Sleep of Machines</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/e915847a-5f76-49ee-bf68-4ffe67b0576c/42928408617.jpg" alt="Ariana by Night" class="album-cover">
+                <div class="album-info"><h3>Ariana by Night</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Renegade" alt="Renegade" class="album-cover">
+                <div class="album-info"><h3>Renegade</h3><p class="album-year">2022</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/09e6514a-d89a-4d37-b302-a302cebc1f37/43065908422.jpg" alt="Neon Dawn" class="album-cover">
+                <div class="album-info"><h3>Neon Dawn</h3><p class="album-year">2022</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=198X" alt="198X" class="album-cover">
+                <div class="album-info"><h3>198X</h3><p class="album-year">2025</p></div>
+            </div>
         </div>
     </div>
 
@@ -138,24 +209,79 @@
     <div class="category">
         <h2>Singles</h2>
         <div class="discography-grid">
-            <div class="album-card"><div class="album-cover">Waves of Desire</div><div class="album-info"><h3>Waves of Desire</h3><p class="album-year">2022</p></div></div>
-            <div class="album-card"><div class="album-cover">Obsidian Pulse</div><div class="album-info"><h3>Obsidian Pulse</h3><p class="album-year">2020</p></div></div>
-            <div class="album-card"><div class="album-cover">Distant Skies</div><div class="album-info"><h3>Distant Skies</h3><p class="album-year">2022</p></div></div>
-            <div class="album-card"><div class="album-cover">My Love Kenza</div><div class="album-info"><h3>My Love Kenza</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Enigma</div><div class="album-info"><h3>Enigma</h3><p class="album-year">2026</p></div></div>
-            <div class="album-card"><div class="album-cover">Digital Nightfall</div><div class="album-info"><h3>Digital Nightfall</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Nightcall Protocol</div><div class="album-info"><h3>Nightcall Protocol</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Radio Wave</div><div class="album-info"><h3>Radio Wave</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">Echoes of Eternity</div><div class="album-info"><h3>Echoes of Eternity</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">Neon Memories</div><div class="album-info"><h3>Neon Memories</h3><p class="album-year">2021</p></div></div>
-            <div class="album-card"><div class="album-cover">VHS Dreams</div><div class="album-info"><h3>VHS Dreams</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">The Midnight Call</div><div class="album-info"><h3>The Midnight Call</h3><p class="album-year">2021</p></div></div>
-            <div class="album-card"><div class="album-cover">Resonance</div><div class="album-info"><h3>Resonance</h3><p class="album-year">2021</p></div></div>
-            <div class="album-card"><div class="album-cover">I Shazamed Your Soul</div><div class="album-info"><h3>I Shazamed Your Soul</h3><p class="album-year">2025</p></div></div>
-            <div class="album-card"><div class="album-cover">You Were My Mixtape</div><div class="album-info"><h3>You Were My Mixtape</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Flashback Desire</div><div class="album-info"><h3>Flashback Desire</h3><p class="album-year">2023</p></div></div>
-            <div class="album-card"><div class="album-cover">Chrome Dreams</div><div class="album-info"><h3>Chrome Dreams</h3><p class="album-year">2024</p></div></div>
-            <div class="album-card"><div class="album-cover">Plasma Paradox</div><div class="album-info"><h3>Plasma Paradox</h3><p class="album-year">2024</p></div></div>
+            <!-- Singles avec images -->
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Waves+of+Desire" alt="Waves of Desire" class="album-cover">
+                <div class="album-info"><h3>Waves of Desire</h3><p class="album-year">2022</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/e03be1c0-dcca-450e-8cb0-622d1b8841f4/43648410160.jpg" alt="Obsidian Pulse" class="album-cover">
+                <div class="album-info"><h3>Obsidian Pulse</h3><p class="album-year">2020</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/ccc4adbd-92f0-4113-8cfd-ab214af91cad/42948526299.jpg" alt="Distant Skies" class="album-cover">
+                <div class="album-info"><h3>Distant Skies</h3><p class="album-year">2022</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/a5736e0d-8983-4e88-b7af-78a57669bebe/42912290964.jpg" alt="My Love Kenza" class="album-cover">
+                <div class="album-info"><h3>My Love Kenza</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/6e59198a-20e5-402b-adbc-6dd4b1fc2859/44160010298.jpg" alt="Enigma" class="album-cover">
+                <div class="album-info"><h3>Enigma</h3><p class="album-year">2026</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Digital+Nightfall" alt="Digital Nightfall" class="album-cover">
+                <div class="album-info"><h3>Digital Nightfall</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Nightcall+Protocol" alt="Nightcall Protocol" class="album-cover">
+                <div class="album-info"><h3>Nightcall Protocol</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/1779d0cd-f0ab-4266-b5aa-66807d716521/42815938190.jpg" alt="Radio Wave" class="album-cover">
+                <div class="album-info"><h3>Radio Wave</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/c3b1d317-2013-4ed9-9ab8-b1d8e6fabc0a/42896821390.jpg" alt="Echoes of Eternity" class="album-cover">
+                <div class="album-info"><h3>Echoes of Eternity</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://coverartarchive.org/release/5defb1ef-a2b3-4709-9a59-56c3961088fc/42912228592.jpg" alt="Neon Memories" class="album-cover">
+                <div class="album-info"><h3>Neon Memories</h3><p class="album-year">2021</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=VHS+Dreams" alt="VHS Dreams" class="album-cover">
+                <div class="album-info"><h3>VHS Dreams</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=The+Midnight+Call" alt="The Midnight Call" class="album-cover">
+                <div class="album-info"><h3>The Midnight Call</h3><p class="album-year">2021</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Resonance" alt="Resonance" class="album-cover">
+                <div class="album-info"><h3>Resonance</h3><p class="album-year">2021</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=I+Shazamed+Your+Soul" alt="I Shazamed Your Soul" class="album-cover">
+                <div class="album-info"><h3>I Shazamed Your Soul</h3><p class="album-year">2025</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=You+Were+My+Mixtape" alt="You Were My Mixtape" class="album-cover">
+                <div class="album-info"><h3>You Were My Mixtape</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Flashback+Desire" alt="Flashback Desire" class="album-cover">
+                <div class="album-info"><h3>Flashback Desire</h3><p class="album-year">2023</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Chrome+Dreams" alt="Chrome Dreams" class="album-cover">
+                <div class="album-info"><h3>Chrome Dreams</h3><p class="album-year">2024</p></div>
+            </div>
+            <div class="album-card">
+                <img src="https://via.placeholder.com/300x300/1a0033/00ffff?text=Plasma+Paradox" alt="Plasma Paradox" class="album-cover">
+                <div class="album-info"><h3>Plasma Paradox</h3><p class="album-year">2024</p></div>
+            </div>
         </div>
     </div>
     <p style="text-align: center; margin-top: 50px;"><a href="index.html">← Back to Homepage</a></p>
