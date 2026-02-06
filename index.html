@@ -3,7 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>LANDOLSI – Official Website | Pioneer of Desert Synthwave</title>
-    <!-- BALISAGE SCHEMA.ORG POUR LES ALBUMS (AJOUTÉ ICI) -->
+    
+    <!-- BALISAGE SCHEMA.ORG POUR L'ARTISTE -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicArtist",
+      "@id": "https://landolsi79.github.io/landolsi-official/#artist",
+      "name": "LANDOLSI",
+      "description": "LANDOLSI is a Tunisian synthwave artist and the creator of Desert Synthwave.",
+      "birthDate": "1979-01-08",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "Ariana, Tunisia"
+      },
+      "genre": ["Synthwave", "Electronic", "Retrowave", "Desert Synthwave"],
+      "url": "https://landolsi79.github.io/landolsi-official/",
+      "image": "https://landolsi79.github.io/landolsi-official/LANDOLSI%20(Official%20profile).jpg",
+      "sameAs": [
+        "https://landolsi.bandcamp.com/",
+        "https://open.spotify.com/artist/7y8vThKd6QrMPdmjFuZ2i9"
+      ]
+    }
+    </script>
+    
+    <!-- BALISAGE SCHEMA.ORG POUR LES ALBUMS -->
     <script type="application/ld+json">
     [
       {
@@ -12,7 +36,7 @@
         "name": "Electronic Love",
         "image": "https://coverartarchive.org/release/d1760de6-33af-44bf-94d7-988a46b63b21/43965852498.jpg",
         "datePublished": "2026-01-17",
-        "byArtist": {"@type": "MusicGroup", "name": "LANDOLSI"},
+        "byArtist": {"@type": "MusicArtist", "name": "LANDOLSI"},
         "genre": ["Synthwave", "Desert Synthwave"]
       },
       {
@@ -21,7 +45,7 @@
         "name": "The Last Night of 2025",
         "image": "https://coverartarchive.org/release/4159ac21-68e1-4bfd-ac59-0c336d6831e0/43908685846.jpg",
         "datePublished": "2025-12-26",
-        "byArtist": {"@type": "MusicGroup", "name": "LANDOLSI"},
+        "byArtist": {"@type": "MusicArtist", "name": "LANDOLSI"},
         "genre": ["Synthwave", "Desert Synthwave"]
       },
       {
@@ -30,7 +54,7 @@
         "name": "Sahara Twilight",
         "image": "https://coverartarchive.org/release/6439e302-bd0f-4e71-a9c4-5b9a17b2706a/42794141112.jpg",
         "datePublished": "2025-07-23",
-        "byArtist": {"@type": "MusicGroup", "name": "LANDOLSI"},
+        "byArtist": {"@type": "MusicArtist", "name": "LANDOLSI"},
         "genre": ["Synthwave", "Desert Synthwave"]
       },
       {
@@ -39,16 +63,18 @@
         "name": "Neon Desert",
         "image": "https://coverartarchive.org/release/e97f8968-5d4b-4d2e-bebb-7ecf69a7996d/43199526472.jpg",
         "datePublished": "2023-01-08",
-        "byArtist": {"@type": "MusicGroup", "name": "LANDOLSI"},
+        "byArtist": {"@type": "MusicArtist", "name": "LANDOLSI"},
         "genre": ["Synthwave", "Desert Synthwave"]
       }
     ]
     </script>
     <!-- FIN DU BALISAGE -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Official website of LANDOLSI, Tunisian synthwave artist and creator of Desert Synthwave.">
     <link rel="canonical" href="https://landolsi79.github.io/landolsi-official/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
