@@ -1,247 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- HOME PAGE -->
   <url>
     <loc>https://landolsi79.github.io/landolsi-official/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/landolsi_official_profile.jpg</image:loc>
-      <image:title>LANDOLSI portrait photo - Tunisian Synthwave Artist and Producer</image:title>
-      <image:caption>Official profile photo of LANDOLSI, Tunisian Synthwave Artist and Producer</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/electronic-love.jpg</image:loc>
-      <image:title>LANDOLSI - Electronic Love album cover (2026)</image:title>
-      <image:caption>Album cover for Electronic Love by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/nostalgia.jpg</image:loc>
-      <image:title>LANDOLSI - Nostalgia album cover (2026)</image:title>
-      <image:caption>Album cover for Nostalgia by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/the-last-night-of-2025.jpg</image:loc>
-      <image:title>LANDOLSI - The Last Night of 2025 album cover (2025)</image:title>
-      <image:caption>Album cover for The Last Night of 2025 by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/neon-desert.jpg</image:loc>
-      <image:title>LANDOLSI - Neon Desert album cover (2023)</image:title>
-      <image:caption>Album cover for Neon Desert by LANDOLSI</image:caption>
-    </image:image>
   </url>
 
-  <!-- ABOUT PAGE -->
   <url>
     <loc>https://landolsi79.github.io/landolsi-official/about.html</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/landolsi_official_profile.jpg</image:loc>
-      <image:title>LANDOLSI portrait photo - Tunisian Synthwave Artist and Producer</image:title>
-      <image:caption>Official profile photo of LANDOLSI</image:caption>
-    </image:image>
   </url>
 
-  <!-- DISCOGRAPHY PAGE -->
   <url>
     <loc>https://landolsi79.github.io/landolsi-official/discography.html</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <!-- ALBUM COVERS -->
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/Kef.jpg</image:loc>
-      <image:title>LANDOLSI - Kef album cover (2011)</image:title>
-      <image:caption>Album cover for Kef by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/electronic-love.jpg</image:loc>
-      <image:title>LANDOLSI - Electronic Love album cover (2026)</image:title>
-      <image:caption>Album cover for Electronic Love by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/the-last-night-of-2025.jpg</image:loc>
-      <image:title>LANDOLSI - The Last Night of 2025 album cover (2025)</image:title>
-      <image:caption>Album cover for The Last Night of 2025 by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/the-horizon-protocol.jpg</image:loc>
-      <image:title>LANDOLSI - The Horizon Protocol album cover (2020)</image:title>
-      <image:caption>Album cover for The Horizon Protocol by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/chrome-over-dust.jpg</image:loc>
-      <image:title>LANDOLSI - Chrome Over Dust album cover (2019)</image:title>
-      <image:caption>Album cover for Chrome Over Dust by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/whispers-of-the-past.jpg</image:loc>
-      <image:title>LANDOLSI - Whispers of the Past album cover (2017)</image:title>
-      <image:caption>Album cover for Whispers of the Past by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/desert-waves.jpg</image:loc>
-      <image:title>LANDOLSI - Desert Waves album cover (2014)</image:title>
-      <image:caption>Album cover for Desert Waves by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/digitronica.jpg</image:loc>
-      <image:title>LANDOLSI - Digitronica album cover (2021)</image:title>
-      <image:caption>Album cover for Digitronica by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/retrograde-hearts.jpg</image:loc>
-      <image:title>LANDOLSI - Retrograde Hearts album cover (2024)</image:title>
-      <image:caption>Album cover for Retrograde Hearts by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/retrovision.jpg</image:loc>
-      <image:title>LANDOLSI - Retrovision album cover (2021)</image:title>
-      <image:caption>Album cover for Retrovision by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/coco-beach.jpg</image:loc>
-      <image:title>LANDOLSI - Coco Beach album cover (2021)</image:title>
-      <image:caption>Album cover for Coco Beach by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/borj-louzir.jpg</image:loc>
-      <image:title>LANDOLSI - Borj Louzir album cover (2024)</image:title>
-      <image:caption>Album cover for Borj Louzir by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/eternal-summer.jpg</image:loc>
-      <image:title>LANDOLSI - Eternal Summer album cover (2024)</image:title>
-      <image:caption>Album cover for Eternal Summer by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/sahara-twilight.jpg</image:loc>
-      <image:title>LANDOLSI - Sahara Twilight album cover (2025)</image:title>
-      <image:caption>Album cover for Sahara Twilight by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/arcadia-niights.jpg</image:loc>
-      <image:title>LANDOLSI - Arcadia Niights album cover (2025)</image:title>
-      <image:caption>Album cover for Arcadia Niights by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/neon-desert.jpg</image:loc>
-      <image:title>LANDOLSI - Neon Desert album cover (2023)</image:title>
-      <image:caption>Album cover for Neon Desert by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/apocalypse.jpg</image:loc>
-      <image:title>LANDOLSI - Apocalypse album cover (2023)</image:title>
-      <image:caption>Album cover for Apocalypse by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/gravity-of-silence.jpg</image:loc>
-      <image:title>LANDOLSI - Gravity of Silence album cover (2025)</image:title>
-      <image:caption>Album cover for Gravity of Silence by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/retronyx.jpg</image:loc>
-      <image:title>LANDOLSI - Retronyx album cover (2021)</image:title>
-      <image:caption>Album cover for Retronyx by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/the-sleep-of-machines.jpg</image:loc>
-      <image:title>LANDOLSI - The Sleep of Machines album cover (2025)</image:title>
-      <image:caption>Album cover for The Sleep of Machines by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/ariana-by-night.jpg</image:loc>
-      <image:title>LANDOLSI - Ariana by Night album cover (2024)</image:title>
-      <image:caption>Album cover for Ariana by Night by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/renegade.jpg</image:loc>
-      <image:title>LANDOLSI - Renegade album cover (2022)</image:title>
-      <image:caption>Album cover for Renegade by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/neon-dawn.jpg</image:loc>
-      <image:title>LANDOLSI - Neon Dawn album cover (2022)</image:title>
-      <image:caption>Album cover for Neon Dawn by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/198x.jpg</image:loc>
-      <image:title>LANDOLSI - 198X album cover (2025)</image:title>
-      <image:caption>Album cover for 198X by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/nostalgia.jpg</image:loc>
-      <image:title>LANDOLSI - Nostalgia album cover (2026)</image:title>
-      <image:caption>Album cover for Nostalgia by LANDOLSI</image:caption>
-    </image:image>
-    <!-- SINGLE COVERS -->
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/waves-of-desire.jpg</image:loc>
-      <image:title>LANDOLSI - Waves of Desire single cover (2022)</image:title>
-      <image:caption>Single cover for Waves of Desire by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/obsidian-pulse.jpg</image:loc>
-      <image:title>LANDOLSI - Obsidian Pulse single cover (2020)</image:title>
-      <image:caption>Single cover for Obsidian Pulse by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/distant-skies.jpg</image:loc>
-      <image:title>LANDOLSI - Distant Skies single cover (2022)</image:title>
-      <image:caption>Single cover for Distant Skies by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/my-love-kenza.jpg</image:loc>
-      <image:title>LANDOLSI - My Love Kenza single cover (2024)</image:title>
-      <image:caption>Single cover for My Love Kenza by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/enigma.jpg</image:loc>
-      <image:title>LANDOLSI - Enigma single cover (2026)</image:title>
-      <image:caption>Single cover for Enigma by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/digital-nightfall.jpg</image:loc>
-      <image:title>LANDOLSI - Digital Nightfall single cover (2024)</image:title>
-      <image:caption>Single cover for Digital Nightfall by LANDOLSI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/images/nightcall-protocol.jpg</image:loc>
-      <image:title>LANDOLSI - Nightcall Protocol single cover (2024)</image:title>
-      <image:caption>Single cover for Nightcall Protocol by LANDOLSI</image:caption>
-    </image:image>
   </url>
 
-  <!-- LINKS PAGE -->
   <url>
     <loc>https://landolsi79.github.io/landolsi-official/links.html</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/landolsi_official_profile.jpg</image:loc>
-      <image:title>LANDOLSI portrait photo - Tunisian Synthwave Artist and Producer</image:title>
-      <image:caption>Official profile photo of LANDOLSI</image:caption>
-    </image:image>
   </url>
 
-  <!-- CONTACT PAGE -->
   <url>
     <loc>https://landolsi79.github.io/landolsi-official/contact.html</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://landolsi79.github.io/landolsi-official/landolsi_official_profile.jpg</image:loc>
-      <image:title>LANDOLSI portrait photo - Tunisian Synthwave Artist and Producer</image:title>
-      <image:caption>Official profile photo of LANDOLSI</image:caption>
-    </image:image>
   </url>
 
 </urlset>
