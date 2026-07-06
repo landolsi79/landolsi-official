@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://landolsi79.github.io/landolsi-official/sitemap.xml
+
+# Allow all images to be indexed
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.webp$
+
+# Crawl-delay (optional, for slower crawlers)
+Crawl-delay: 1
