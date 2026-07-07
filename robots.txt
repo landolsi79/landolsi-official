@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location (updated to bypass error history)
-Sitemap: https://landolsi79.github.io/landolsi-official/sitemap-v2.xml
+Sitemap: https://landolsi79.github.io/landolsi-official/sitemap.xml
 
 # Allow all images to be indexed
 Allow: /images/
